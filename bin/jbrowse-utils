@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+import os.path
+import sys
+
+try:
+    import jbrowse_utils.cli
+except ImportError:
+    sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+    import jbrowse_utils.cli
+
+
+def main():
+    return jbrowse_utils.cli.main()
+
+
+if __name__ == '__main__':
+    sys.exit(main())
