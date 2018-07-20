@@ -31,7 +31,7 @@ A set of Python utilities for formatting data to be used with JBrowse
 
 ## Installation
 
-The only requirement so far is Python 3.2+, with no other dependencies. Just clone and run.
+The only requirement so far is Python 3.3+, with no other dependencies. Just clone and run.
 ```
 git clone https://github.com/garrettjstevens/jbrowse-utils.git
 cd jbrowse_utils
