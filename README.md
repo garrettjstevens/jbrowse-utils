@@ -30,7 +30,7 @@ A set of Python utilities for formatting data to be used with JBrowse
 ## Installation
 
 The only requirement so far is Python 3+, with no other dependencies. Just clone and run.
-```bash
+```
 git clone https://github.com/garrettjstevens/jbrowse-utils.git
 cd jbrowse_utils
 bin/jbrowse-utils --help
@@ -38,7 +38,7 @@ bin/jbrowse-utils prepare-refseqs --help
 ```
 
 ## Usage
-```bash
+```
 $ bin/jbrowse-utils prepare-refseqs --help
 usage: jbrowse-utils prepare-refseqs [-h]
                                      (--gff <GFF3 file> | --fasta <FASTA file> [<FASTA file> ...] | --indexed_fasta <FASTA file> | --twobit <2BIT file> | --conf <biodb config file> | --sizes <sizes file> [<sizes file> ...] | --gff-sizes <GFF file>)
@@ -120,5 +120,5 @@ This is a derivative of the work in JBrowse, so all credit for the basic ideas g
 
 This is released under the same license as JBrowse: GNU Lesser General Public License v2.1
 
-Under the terms of that license, I give full credit to the original authors ()https://github.com/GMOD/jbrowse) for the
+Under the terms of that license, I give full credit to the original authors (https://github.com/GMOD/jbrowse) for the
 ideas used in this work. 
